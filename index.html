@@ -1,0 +1,50 @@
+<!DOCTYPE HTML>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial scale=1.0">
+<title>SELL YOUR PRODUCT</title>
+<link rel="stylesheet" href="style.css">
+</head>
+<body>
+<div class ="bigbox">
+<div class="container">
+<div class="image">
+<img src="instiOLX.jpg" alt="Logo">
+</div>
+<div class="form-head">
+<h1>SELL YOUR PRODUCT</h1>
+</div>
+</div>
+<form action="">
+<div class="form-head">
+<h2>Personal details</h2>
+</div>
+<div class = "form-organs">
+<label for="name"> Your Name : </label>
+<input type="text" id="personalname" name="name" required>
+</div>
+<div class="form-organs">
+<label for="address"> Address : </label>
+<textarea id="address" name="address" rows="4" required></textarea>
+</div>
+<div class ="form-organs">
+<label for="contact">Contact No. : </label>
+<input type="tel" id="phone" name="phone" placeholder="1234567890" pattern="[0-9]{10}" required>
+<small>Format:1234567890</small>
+</div>
+<div class ="form-organs">
+<label for="email"> Email ID </label>
+<input type="email" id="email" name="email">
+</div>
+<div class="form-organs">
+<button onclick="saveDataAndRedirect()">Go to product details</button>
+</div>
+</form>
+</div>
+<script src="new.js"></script>
+</body>
+<footer>
+<p>© 2024 INstiOLX</p>
+</footer>
+</html>

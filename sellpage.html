@@ -1,0 +1,71 @@
+<!DOCTYPE HTML>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial scale=1.0">
+<title>SELL YOUR PRODUCT</title>
+<link rel="stylesheet" href="style.css">
+</head>
+<body>
+<div class ="bigbox">
+<div class="container">
+<div class="image">
+<img src="instiOLX.jpg" alt="Logo">
+</div>
+<div class="form-head">
+<h1>SELL YOUR PRODUCT</h1>
+</div>
+</div>
+<form action="">
+<div class="form-organs">
+<h2>Product details</h2>
+</div>
+<div class="form-organs">
+<label for="productname">Name of the product :</label>
+<input type="text" id="productname" name="productname" required>
+</div>
+<div class="form-organs">
+<label for="description"> Product Description : </label>
+<textarea id="description" name="description" rows="4" required></textarea>
+</div>
+<div class="form-organs">
+<label for = "price"> Price: </label>
+<select name="currency" id="price-currency">
+  <option value="Indian Ruppee">₹(INR)</option>
+  <option value="US Dollar">$(USD)</option>
+  <option value="Euro">€(EURO)</option>
+  <option value="Pounds">£(UKP)</option>
+</select>
+<input type="number" min="0" step="1" id="price" name="price" required>
+</div>
+<div class="form-organs">
+<label for="buying-date">Buying Date :</label>
+<input type="date" id="buying-date" name="buying-date" required>
+</div>
+<div class="form-organs">
+<label for ="buying-price"> Buying Price : </label>
+<select name="currency" id="buying-currency">
+  <option value="Indian Ruppee">₹(INR)</option>
+  <option value="US Dollar">$(USD)</option>
+  <option value="Euro">€(EURO)</option>
+  <option value="Pounds">£(UKP)</option>
+</select>
+<input type="number" min="0" step="1" id="buying-price" name="buying-price">
+</div>
+<div class = "form-organs">
+<label for="photos">Upload Photos :</label>
+<input type="file" id="photos" name="photos[]" multiple accept=image/*">
+<br>
+<sub style="color:green">***JPG file recommended</sub>
+<br>
+</div>
+<div class="form-organs">
+<button type="submit">POST</button>
+</div>
+</form>
+</div>
+</body>
+<footer>
+<p>© 2024 INstiOLX</p>
+</footer>
+</html>
